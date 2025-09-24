@@ -3,6 +3,8 @@ import logo from "./assets/logo.svg";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 
+import Notes from './Components/Notes';
+
 function App() {
   const [greetMsg, setGreetMsg] = createSignal("");
   const [name, setName] = createSignal("");
@@ -13,8 +15,14 @@ function App() {
   }
 
   return (
-    <main class="container">
-      <h1>Welcome to Tauri + Solid</h1>
+    // <main class="container">
+    <main>
+
+      <Notes/>
+
+
+
+      {/* <h1>Welcome to Tauri + Solid</h1>
 
       <div class="row">
         <a href="https://vitejs.dev" target="_blank">
@@ -43,7 +51,7 @@ function App() {
         />
         <button type="submit">Greet</button>
       </form>
-      <p>{greetMsg()}</p>
+      <p>{greetMsg()}</p> */}
     </main>
   );
 }
