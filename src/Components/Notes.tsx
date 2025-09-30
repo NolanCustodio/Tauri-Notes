@@ -1,11 +1,14 @@
 
 import './Notes.css'
 
-export default function Notes(){
+export default function Notes() {
 
-    return(
-        <div class="main">
-            Notes
-        </div>
+    return (
+        <input
+            class='main'
+            // onChange={(e) => setName(e.currentTarget.value)}s
+            placeholder="Enter a name..."
+        />
+
     )
 }
