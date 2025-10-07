@@ -1,7 +1,7 @@
 // import { createSignal } from "solid-js";
 // import logo from "./assets/logo.svg";
 // import { invoke } from "@tauri-apps/api/core";
-// import "./App.css";
+import "./App.css";
 
 import Notes from './Components/Notes';
 
@@ -15,7 +15,9 @@ function App() {
   // }
 
   return (
-    <Notes/>
+    <div class="main">
+      <Notes />
+    </div>
     // <input/>
     // <main>
 
