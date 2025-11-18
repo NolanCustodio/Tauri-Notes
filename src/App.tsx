@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div class="main">
+      test
       {/* <Notes /> */}
     </div>
     // <input/>
