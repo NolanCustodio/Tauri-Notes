@@ -4,10 +4,14 @@
 }
 
 .main {
-/* 
+
   display: flex;
   flex-flow: column;
-  height: 97vh;
 
-  border: 1px solid black; */
+  margin: auto;
+
+  height: 95vh;
+  width: 96vw;
+
+  border: 1px solid black;
 }

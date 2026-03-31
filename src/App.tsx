@@ -15,10 +15,13 @@ function App() {
   // }
 
   return (
-    <div class="main">
-      test
-      {/* <Notes /> */}
-    </div>
+    <textarea placeholder="Test" class="main">
+
+    </textarea>
+    // <div class="main">
+    //   test
+    //   {/* <Notes /> */}
+    // </div>
     // <input/>
     // <main>
 
