@@ -6,6 +6,7 @@ import './Notes.css'
 export default function Notes() {
 
     // const [content, setContent] = createSignal('');
+    // small change
 
     let testText;
 
